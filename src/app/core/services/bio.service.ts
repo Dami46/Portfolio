@@ -10,6 +10,6 @@ export class BioService {
   constructor(private http: HttpClient) { }
 
   getBio() {
-    return this.http.get<Bio>('assets/json/bio.json').toPromise();
+    return this.http.get<Bio>('assets/bio.json');
   }
 }
