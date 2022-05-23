@@ -23,7 +23,7 @@ export class HeaderService {
         return false;
       }),
       startWith(this.checkForHomeUrl(this.router.url))
-    ).toPromise();
+    );
   }
 
   private checkForHomeUrl(url: string): boolean {

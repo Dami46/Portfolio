@@ -13,11 +13,10 @@ export class HeaderComponent {
 
   menuItems = [
     {title: 'About Me', homePath: '/', fragment: 'about', pagePath: '/about'},
-    {title: 'My Projects', homePath: '/', fragment: 'projects', pagePath: '/projects'},
-    {title: 'My Blog', homePath: '/blog', fragment: '', pagePath: '/blog'}
+    {title: 'My Projects', homePath: '/', fragment: 'projects', pagePath: '/projects'}
   ];
 
-  isHome: Promise<boolean>;
+  isHome: Observable<boolean>;
   bio: Observable<Bio>;
 
   constructor(private bioService: BioService, private headerService: HeaderService) {

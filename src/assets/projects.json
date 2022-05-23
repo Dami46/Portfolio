@@ -1,13 +1,38 @@
 [
   {
-    "name": "",
+    "name": "Soduko",
     "stack": {
-      "name": "Vue.js",
-      "iconClasses": "fab fa-vuejs"
+      "name": "Angular"
     },
-    "description": "",
-    "sourceUrl": "",
-    "previewUrl": "",
-    "featured": false
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "previewUrl": "https://github.com",
+    "featured": true
+  },
+  {
+    "name": "E-commerce Store",
+    "stack": {
+      "name": "React"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "previewUrl": "https://github.com",
+    "featured": true
+  },
+  {
+    "name": "Algorithm Visualization App",
+    "stack": {
+      "name": "Angular"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "previewUrl": "https://github.com",
+    "featured": true
+  },
+  {
+    "name": "Time Tracking CLI App",
+    "stack": {
+      "name": "Node.js"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "previewUrl": "https://github.com",
+    "featured": true
   }
 ]
