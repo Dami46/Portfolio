@@ -1,38 +1,38 @@
 [
   {
-    "name": "Soduko",
+    "name": "Online Store",
     "stack": {
-      "name": "Angular"
+      "name": "Java, React.js, HTML, CSS"
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "previewUrl": "https://github.com",
+    "description": "Online shop design with queuing system",
+    "previewUrl": "https://github.com/Dami46/OnlineStore/tree/docker",
     "featured": true
   },
   {
-    "name": "E-commerce Store",
+    "name": "Operating-system",
     "stack": {
-      "name": "React"
+      "name": "Java"
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "previewUrl": "https://github.com",
+    "description": "Old text operating system based on Linux and Created in Java. My part was to create a virtual memory of the system",
+    "previewUrl": "https://github.com/Dami46/Operating-system---2020",
     "featured": true
   },
   {
-    "name": "Algorithm Visualization App",
+    "name": "Analog Tetris",
     "stack": {
-      "name": "Angular"
+      "name": "C"
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "previewUrl": "https://github.com",
+    "description": "Tetris Game on STM32F0DISCOVERY board with screen and joystick",
+    "previewUrl": "https://github.com/PUT-PTM-2020/P36",
     "featured": true
   },
   {
-    "name": "Time Tracking CLI App",
+    "name": "Multi Tetris",
     "stack": {
-      "name": "Node.js"
+      "name": "C#"
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "previewUrl": "https://github.com",
+    "description": "Tetris Game made with Unity",
+    "previewUrl": "https://github.com/Dami46/TetrisMulti",
     "featured": true
   }
 ]

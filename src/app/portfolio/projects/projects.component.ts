@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {mergeMap} from 'rxjs/operators';
 import {HeaderService} from '../../core/services/header.service';
 import {ProjectsService} from "../../core/services/projects.service";
 import {Observable} from "rxjs";
@@ -22,9 +21,6 @@ export class ProjectsComponent {
 
   constructor(private projectsService: ProjectsService, private headerService: HeaderService) {
     this.isHome = this.headerService.isHome();
-    this.projects = this.isHome.pipe(
-      mergeMap(atHome => this.projectsService.getProjects(atHome))
-    );
-
+    this.projects = this.projectsService.getProjects()
   }
 }

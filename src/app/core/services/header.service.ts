@@ -29,4 +29,11 @@ export class HeaderService {
   private checkForHomeUrl(url: string): boolean {
     return url.startsWith('/#') || url == '/';
   }
+
+  resetPathFragment() {
+    if (this.router.url.startsWith('/#')) {
+      this.router.navigate(['/']);
+      console.log("scrolling");
+    }
+  }
 }

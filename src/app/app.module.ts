@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {NgHttpLoaderModule} from "ng-http-loader";
 import {CoreModule} from "./core/core.module";
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -15,8 +14,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserModule,
     AppRoutingModule,
     NgHttpLoaderModule,
-    CoreModule,
-    FontAwesomeModule
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

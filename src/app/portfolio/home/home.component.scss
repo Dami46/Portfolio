@@ -3,3 +3,43 @@ $minimal-height: 95vh;
 min-vh-95 {
   height: $minimal-height;
 }
+
+.icons-container {
+  position: fixed;
+  bottom: 0;
+  left: 40px;
+  z-index: 100;
+}
+
+ul.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: outside none none;
+
+  li {
+    margin: 10px;
+
+    a {
+      color: var(--heading-sec-color);
+    }
+  }
+}
+
+.social-links::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+
+@media all and (max-width: 200px) {
+  .icons-container {
+    display: none;
+  }
+}

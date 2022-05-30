@@ -22,7 +22,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
    this.bio =  this.bioService.getBio()
-    console.log("bio ", this.bio);
   }
 
 }
